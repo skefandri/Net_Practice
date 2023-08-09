@@ -53,7 +53,8 @@ there are many topologies the most common ones are :
     
 - **Star Topology :** In a star topology, all devices are connected directly to a central hub or switch.
     
-    ![star.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f6a38d3-ec5d-41e5-9999-71b2adc38ae4/star.webp)
+    ![bus](https://github.com/skefandri/Net_Practice/assets/77023556/d067741e-bfc2-4aa2-a5d0-a82b3f018798)
+![star.webp]
     
 - **Mesh topology :** Each device is connected to every other device in the network,
 - creating **redundant “وفرة”** paths for data transmission (but expensive af).
