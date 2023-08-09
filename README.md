@@ -44,27 +44,28 @@ there are many topologies the most common ones are :
 - **Bus topology :** All devices are connected to a single communication line
 - (called the   **backbone cable**), and if the backbone failed the entire network may be affected.
 
-    
-    https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9832db87-666d-48e2-8eef-bf0168934d2a/bus.png
+    ![bus](https://github.com/skefandri/Net_Practice/assets/77023556/780528e4-d223-444e-ad17-d6f87e91e520)
+
     
 - **Ring Topology :** Each device is connected to exactly two other devices
-    
-    (https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4f77206-7042-42a6-9da5-12e47ddcbe03/ring.webp)
+![ring](https://github.com/skefandri/Net_Practice/assets/77023556/47a6d3a2-a4f1-4a8b-ad7a-556e230fbbb5)
+
     
 - **Star Topology :** In a star topology, all devices are connected directly to a central hub or switch.
     
-    ![bus](https://github.com/skefandri/Net_Practice/assets/77023556/d067741e-bfc2-4aa2-a5d0-a82b3f018798)
-![star.webp]
+![star](https://github.com/skefandri/Net_Practice/assets/77023556/34ec250d-0f00-4ac4-b07c-5b6d900a9a1b)
+
     
 - **Mesh topology :** Each device is connected to every other device in the network,
 - creating **redundant “وفرة”** paths for data transmission (but expensive af).
 - so we can that only between switches or routers. (if you delete one or more cables you get **Half Mesh**)
+![Mesh](https://github.com/skefandri/Net_Practice/assets/77023556/e5e3f779-5914-443c-b79b-6a9e48faf69d)
 
-![Mesh.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8118ca30-1387-4c35-87ed-474ae6adb3ae/Mesh.webp)
 
 We can combine these topologies to get a **Hybrid Topology** for example :
 
-![hybrid.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3f775bf2-d7f5-43e2-bec6-d41babd24d07/hybrid.webp)
+![hybrid](https://github.com/skefandri/Net_Practice/assets/77023556/9333fce3-34bb-41d3-9c9c-e566c356549e)
+
 
 ## **`What’s the Network Devices out there ?`**
 
@@ -84,7 +85,8 @@ Here are some common network devices:
     - Fast Ethernet 100mb/s.
     - GigaEthernet 100mb/s.
         
-        ![Network-Interface-Card-Example-1.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4cd5214f-56ad-484b-b529-7ded353e38f0/Network-Interface-Card-Example-1.jpg)
+![Network-Interface-Card-Example-1](https://github.com/skefandri/Net_Practice/assets/77023556/84ca733f-75d5-48a2-a122-d1e5e964a722)
+
         
     
     Each NIC has a **unique** identifier assigned to it called **MAC address**.
@@ -100,7 +102,9 @@ Here are some common network devices:
     
     and it’s **48 bits** long and typically represented in **hexadecimal format** with six groups of two characters each.
     
-    ![l-adresse-mac-1618209718-GYzYSMPm46.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f477dfe-a906-4f2a-bf96-26fb8af5ef2a/l-adresse-mac-1618209718-GYzYSMPm46.jpg)
+    ![l-adresse-mac-1618209718-GYzYSMPm46](https://github.com/skefandri/Net_Practice/assets/77023556/8be2f365-bdd3-4f8e-baa3-ca8779a7d5ce)
+
+
     
     The **uniqueness** of MAC addresses is ensured through the assignment process,
 governed by the Institute of Electrical and Electronics Engineers (IEEE).
@@ -119,8 +123,10 @@ and the last three groups of characters (NICs) are assigned by the vendor.
   regardless of whether it is intended for them or not.
     
     due to their limited functionality and broadcast nature, hubs have largely been replaced by **`switches`**.
-    
-    hubs are **[half duplex](https://www.blackbox.co.uk/gb-gb/page/25069/Resources/Technical-Resources/Black-Box-Explains/Fibre-Optic-Cable/Simplex-vs-duplex-fiber-patch-cable/)** devices,
+   
+
+    hubs are **[half duplex]<img width="771" alt="Screen Shot 2023-08-08 at 3 57 54 PM" src="https://github.com/skefandri/Net_Practice/assets/77023556/acf3c7c3-9293-40e6-9d85-3411c0af52ef">
+** devices,
   means only one device can transmit data at a time VLANs improve network security and efficiency.
         
         ![Switch-MAC-Table.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7335d681-8be5-4e0b-9587-5ce9d4b90942/Switch-MAC-Table.png)
@@ -156,9 +162,10 @@ security by protecting the internal network from unauthorized access and potenti
     14. **Wireless Access:** Many routers include wireless functionality,
     15. enabling devices to connect to the network without physical cables.=
     Wireless routers provide Wi-Fi access and can support various security protocols such as WPA and WPA2.
-        
-        ![Router.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d0e49a0-196e-475b-8e63-f6e5d88e2fa3/Router.png)
-        
+
+        ![coaxial](https://github.com/skefandri/Net_Practice/assets/77023556/8746e0c0-0bd1-4d36-9615-34d3c6b4b540)
+
+       
     
 - **Gateway :**
     
