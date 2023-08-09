@@ -49,7 +49,7 @@ there are many topologies the most common ones are :
     
 - **Ring Topology :** Each device is connected to exactly two other devices
     
-    ![ring.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4f77206-7042-42a6-9da5-12e47ddcbe03/ring.webp)
+    (https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4f77206-7042-42a6-9da5-12e47ddcbe03/ring.webp)
     
 - **Star Topology :** In a star topology, all devices are connected directly to a central hub or switch.
     
