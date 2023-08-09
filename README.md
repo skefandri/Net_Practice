@@ -45,7 +45,7 @@ there are many topologies the most common ones are :
 - (called the   **backbone cable**), and if the backbone failed the entire network may be affected.
 
     
-    ![bus.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9832db87-666d-48e2-8eef-bf0168934d2a/bus.png)
+    https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9832db87-666d-48e2-8eef-bf0168934d2a/bus.png
     
 - **Ring Topology :** Each device is connected to exactly two other devices
     
